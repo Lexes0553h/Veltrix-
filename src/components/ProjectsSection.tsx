@@ -45,14 +45,14 @@ export function ProjectsSection() {
   });
 
   return (
-    <section id="projects" ref={containerRef} className="bg-bg-dark rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 relative z-30 pt-20 px-4 sm:px-6 md:px-10 pb-10 sm:pb-[10vh]">
+    <section id="projects" ref={containerRef} className="bg-bg-dark rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 relative z-30 pt-20 px-4 sm:px-6 md:px-10 pb-4 sm:pb-10">
       <FadeIn y={40} className="w-full flex justify-center mb-16 md:mb-24">
         <h2 className="hero-heading font-black uppercase text-[clamp(3rem,12vw,160px)] leading-none tracking-tight">
           Project
         </h2>
       </FadeIn>
 
-      <div className="flex flex-col gap-6 sm:gap-24 pb-10 sm:pb-[10vh]">
+      <div className="flex flex-col gap-8 sm:gap-16 pb-0">
         {PROJECTS.map((project, i) => {
           // Dynamic scaling for stacking effect
           const targetScale = 1 - (PROJECTS.length - 1 - i) * 0.03;
@@ -90,7 +90,7 @@ export function ProjectsSection() {
                 </div>
 
                 {/* Card Media */}
-                <div className="w-full h-[35vh] sm:h-[60vh] md:h-[70vh] rounded-[24px] sm:rounded-[32px] md:rounded-[40px] overflow-hidden bg-[#1A1A1A]">
+                <div className="w-full aspect-video sm:aspect-auto sm:h-[60vh] md:h-[70vh] rounded-[24px] sm:rounded-[32px] md:rounded-[40px] overflow-hidden bg-[#1A1A1A]">
                   {project.isIframe ? (
                     <iframe
                       src={project.mediaSrc}
@@ -106,7 +106,7 @@ export function ProjectsSection() {
                       loop 
                       muted 
                       playsInline 
-                      className="w-full h-full object-contain sm:object-cover"
+                      className="w-full h-full object-cover"
                     />
                   )}
                 </div>

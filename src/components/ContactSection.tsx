@@ -3,7 +3,7 @@ import { Mail, Phone } from 'lucide-react';
 
 export function ContactSection() {
   return (
-    <section id="contact" className="relative h-auto bg-bg-dark flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 pt-10 pb-16 sm:py-20 overflow-hidden border-t border-[rgba(215,226,234,0.1)]">
+    <section id="contact" className="relative h-auto bg-bg-dark flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 py-10 sm:py-16 overflow-hidden border-t border-[rgba(215,226,234,0.1)]">
       <div className="w-full max-w-7xl mx-auto flex flex-col items-center gap-12 sm:gap-16 z-10">
         <FadeIn y={20} className="text-center">
           <h2 className="text-[clamp(2.5rem,6vw,4rem)] md:text-7xl font-bold uppercase tracking-wider mb-4">
