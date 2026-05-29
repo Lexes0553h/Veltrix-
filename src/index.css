@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: "Kanit", sans-serif;
+  --color-bg-dark: #0C0C0C;
+  --color-text-light: #D7E2EA;
+}
+
+html, body, #root {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  font-family: var(--font-kanit);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-heading {
+  font-family: "Michroma", sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke: 0.03em transparent;
+  background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
