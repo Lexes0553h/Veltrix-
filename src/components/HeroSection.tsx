@@ -46,10 +46,11 @@ export function HeroSection() {
 
         {/* Bottom Bar */}
         <div className="flex justify-between items-end px-6 md:px-10 pb-7 sm:pb-8 md:pb-10 relative z-20">
-          <FadeIn delay={0.35} y={20} className="max-w-[160px] sm:max-w-[220px] md:max-w-[260px]">
-            <p className="text-text-light font-light uppercase tracking-wide leading-snug text-[clamp(0.75rem,1.4vw,1.5rem)]">
-              a 3d creator driven by crafting striking and unforgettable projects
-            </p>
+          <FadeIn delay={0.35} y={20} className="max-w-[320px] sm:max-w-[450px] md:max-w-[550px]">
+            <h2 className="text-text-light font-[family-name:var(--font-kanit)] font-normal tracking-wide leading-relaxed text-[clamp(0.9rem,1.5vw,1.25rem)] opacity-90">
+              Welcome to Eldenweb that helps you build your website.<br className="hidden sm:block" />
+              Turn your vision into a digital experience crafted for impact and built to grow your business.
+            </h2>
           </FadeIn>
           
           <FadeIn delay={0.5} y={20}>
