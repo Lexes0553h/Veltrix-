@@ -1,6 +1,6 @@
 {
-  "name": "Veltrix 3D Portfolio",
-  "description": "A dark-themed 3D creator portfolio landing page for Veltrix, built with React, Framer Motion, and Tailwind CSS.",
+  "name": "Eldenweb 3D Portfolio",
+  "description": "A dark-themed 3D creator portfolio landing page for Eldenweb, built with React, Framer Motion, and Tailwind CSS.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

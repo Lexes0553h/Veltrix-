@@ -16,7 +16,7 @@ html, body, #root {
 }
 
 .hero-heading {
-  font-family: "Michroma", sans-serif;
+  font-family: var(--font-kanit);
   font-weight: 900;
   -webkit-text-stroke: 0.03em transparent;
   background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);

@@ -59,7 +59,7 @@ export function AboutSection() {
 
         <div className="mb-16 sm:mb-20 md:mb-24 w-full flex justify-center">
           <AnimatedText 
-            text="Your website is more than a page — it's your most powerful business tool. Veltrix helps transform your online presence into a platform that attracts the right audience, builds lasting trust, and drives real growth. From first impression to final conversion, your website works for your business around the clock."
+            text="Your website is more than a page — it's your most powerful business tool. Eldenweb helps transform your online presence into a platform that attracts the right audience, builds lasting trust, and drives real growth. From first impression to final conversion, your website works for your business around the clock."
             className="text-text-light font-medium justify-center leading-relaxed max-w-[560px] text-[clamp(1rem,2vw,1.35rem)] text-center"
           />
         </div>

@@ -19,7 +19,7 @@ export function HeroSection() {
       {/* Header Section */}
       <header className="flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8 relative z-20">
         <FadeIn delay={0} y={-20} as={motion.a} href="#" className="font-bold text-xl md:text-2xl uppercase tracking-widest text-text-light hidden sm:block">
-          Veltrix
+          Eldenweb
         </FadeIn>
         <nav className="flex justify-between sm:justify-end sm:gap-10 lg:gap-16 items-center w-full sm:w-auto">
           {['About', 'Pricing', 'Projects', 'Contact'].map((item, i) => {
@@ -38,8 +38,8 @@ export function HeroSection() {
         {/* Heading Container */}
         <div className="w-full flex justify-center overflow-hidden">
           <FadeIn delay={0.15} y={40} className="w-full text-center">
-            <h1 className="hero-heading font-black uppercase tracking-tight leading-[0.85] whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5">
-              Veltrix
+            <h1 className="hero-heading font-black uppercase tracking-[0.05em] leading-[0.85] whitespace-nowrap w-full text-[11vw] sm:text-[12vw] md:text-[13vw] lg:text-[14vw] mt-6 sm:mt-4 md:-mt-5">
+              Eldenweb
             </h1>
           </FadeIn>
         </div>
