@@ -9,8 +9,8 @@ import { MarqueeSection } from './components/MarqueeSection';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
 import { ProjectsSection } from './components/ProjectsSection';
-import { PricingSection } from './components/PricingSection';
 import { ContactSection } from './components/ContactSection';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
@@ -21,8 +21,8 @@ export default function App() {
         <AboutSection />
         <ServicesSection />
         <ProjectsSection />
-        <PricingSection />
         <ContactSection />
+        <Footer />
       </main>
     </div>
   );

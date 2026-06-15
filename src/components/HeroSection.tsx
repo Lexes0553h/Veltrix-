@@ -22,8 +22,8 @@ export function HeroSection() {
           Eldenweb
         </FadeIn>
         <nav className="flex justify-between sm:justify-end sm:gap-10 lg:gap-16 items-center w-full sm:w-auto">
-          {['About', 'Pricing', 'Projects', 'Contact'].map((item, i) => {
-            const id = item === 'Pricing' ? 'price' : item.toLowerCase();
+          {['About', 'Projects', 'Contact'].map((item, i) => {
+            const id = item.toLowerCase();
             return (
               <FadeIn key={item} delay={(i + 1) * 0.1} y={-20} as={motion.a} href={`#${id}`} className="text-text-light font-medium uppercase tracking-wider text-sm md:text-lg lg:text-[1.4rem] hover:opacity-70 transition-opacity duration-200">
                 {item}
