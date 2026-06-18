@@ -53,7 +53,7 @@ export function AboutSection() {
       <div className="relative z-10 flex flex-col items-center max-w-4xl w-full text-center">
         <FadeIn y={40} className="w-full mb-10 sm:mb-14 md:mb-16">
           <h2 className="hero-heading font-black uppercase leading-none tracking-tight text-[clamp(3rem,12vw,160px)]">
-            About me
+            ABOUT US
           </h2>
         </FadeIn>
 

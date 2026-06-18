@@ -18,10 +18,14 @@ export function HeroSection() {
       />
       {/* Header Section */}
       <header className="flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8 relative z-20">
-        <FadeIn delay={0} y={-20} as={motion.a} href="#" className="font-bold text-xl md:text-2xl uppercase tracking-widest text-text-light hidden sm:block">
-          Eldenweb
+        <FadeIn delay={0} y={-20} as={motion.a} href="#" className="flex items-center">
+          <img 
+            src="https://res.cloudinary.com/dxymukm5q/image/upload/v1781786541/dgdgo-Photoroom_amoeto.png" 
+            alt="Eldenweb Logo" 
+            className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain"
+          />
         </FadeIn>
-        <nav className="flex justify-between sm:justify-end sm:gap-10 lg:gap-16 items-center w-full sm:w-auto">
+        <nav className="flex items-center gap-4 sm:gap-10 lg:gap-16">
           {['About', 'Projects', 'Contact'].map((item, i) => {
             const id = item.toLowerCase();
             return (
